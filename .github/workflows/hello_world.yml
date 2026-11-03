@@ -7,3 +7,6 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello, World!"
+      - name: variables
+        run: echo "$({ github.ref }}"
+      
